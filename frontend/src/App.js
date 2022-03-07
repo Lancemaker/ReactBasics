@@ -1,21 +1,14 @@
+
+import { BrowserRouter } from "react-router-dom";
+import Routes from "./routes";
+import { CssBaseline } from "@mui/material";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
-        <p>
-        fuck ! 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CssBaseline>
+      <BrowserRouter>
+        <Routes/>
+      </BrowserRouter>
+    </CssBaseline>
   );
 }
 

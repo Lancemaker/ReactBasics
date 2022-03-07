@@ -1,0 +1,12 @@
+Ordem de comandos :
+
+criando projeto : 
+npx create-react-app frontend
+
+npm start
+
+git add. /git commit
+
+npm i axios react-router-dom cors  // roteamento + solucao de cors.
+
+npm install @mui/material @emotion/react @emotion/styled //framework de belezinha
